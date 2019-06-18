@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular. 03. Sharing data between controllers
+</title>
+</head>
+<body>
+<div ng-controller="firstCtrl">
+    <input type="text" ng-model="myFactory.hello">
+</div>
+
+<div ng-controller="secondCtrl">
+    <input type="text" ng-model="myFactory.hello">
+</div>
+
+<div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</div>
+</body>
+</html>
